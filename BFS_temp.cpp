@@ -15,9 +15,7 @@ void BFS(int source,vector<vector<int>>&g)
                 vis[child]=1;
                 level[child]=1+level[curr_v];
                 q.push(child);
-
             }
         }
     }
-
 }
